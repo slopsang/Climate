@@ -1,0 +1,26 @@
+
+.subunit-boundary {
+    fill: none;
+    stroke: white;
+    stroke-linejoin: round;
+}
+
+.subunit {
+    /*fill: #ddc;*/
+}
+
+.axiss path,
+	  	.axis tick,
+	    .axis line {
+	  		fill: none;
+	  		stroke: none;
+	  	}
+          
+.legend-title {
+    text-anchor: middle;
+    font-family: sans-serif;
+}
+
+.axis text {
+    font-family: sans-serif;
+}

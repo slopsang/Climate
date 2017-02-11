@@ -1,0 +1,26 @@
+.axis text {
+    font: 12px sans-serif;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.title {
+    font: 14px sans-serif;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.legend-text {
+    font: 15px sans-serif;
+}

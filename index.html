@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Climate Change</title>
+
+  <!-- Libraries -->
+  <script src="https://code.jquery.com/jquery.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script type="text/javascript" src="https://d3js.org/d3-queue.v2.min.js"></script>
+  <script type="text/javascript" src="http://d3js.org/topojson.v1.min.js"></script>
+  <script type="text/javascript" src="http://d3js.org/d3.geo.projection.v0.min.js"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/main.css"/>
+  <link rel="stylesheet" href="css/scroll.css"/>
+  <link rel="stylesheet" href="css/GroupedBarChart.css"/>
+  <link rel="stylesheet" href="css/LineChart.css"/>
+  <link rel="stylesheet" href="css/MapPlot.css"/>
+  <link rel="stylesheet" href="css/WorldMap.css" />
+
+  <!-- your script file -->
+  <script src="js/BarChart.js"></script>
+  <script src="js/GroupedBarChart.js"></script>
+  <script src="js/LineChart.js"></script>
+  <script src="js/heatmap.js"></script>
+  <script src="js/scroll.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/MapPlot.js"></script>
+  <script src="js/WorldMap.js"></script>
+</head>
+
+<body>
+    <div class="container" id="main">
+    <div id="sandbox">
+      <div id='graphic'>
+        <div id='sections'>
+          <section class="step">
+            <h1 id="big-title">Global Warming</h1>
+            <p>
+              The phenomenon of global warming is when radiation emitted by the sun is absorbed by the earth. This radiation absorbed by the earth is then emitted back outwards causing the surface of the earth to warm. When the radiation emitted by earth tries to go back to space, it is trapped by <a href="https://en.wikipedia.org/wiki/Greenhouse_gas" class="link" target="_blank">greenhouse gasses</a> in earth's atmosphere that in turn send radiation back to earth's surface causing it to perpetually warm.
+            </p>
+          </section>
+          <section class="step">
+            <h2>An Introduction...</h2>
+            <p>
+              Over the past 50 years, the average surface temperature of earth has increased by nearly 3 degrees Celsius.
+            </p>
+          </section>
+          <section class="step">
+            <p>Here we see the average surface temperature of every country over the past 54 years.</p>
+          </section>
+          <section class="step">
+            <h2>What is behind this change in temperature?</h2>
+          </section>
+          <section class="step">
+            <p>One of the major drivers of the greenhouse effect is the <strong>greenhouse gasses</strong>, one of which is carbon dioxide (CO2). Interestingly enough, people are at fault for pretty much all the CO2 being put into the atmosphere. The burning of fossil fuels alone accounts for more than <strong>80%</strong> of human carbon emissions.</p>
+          </section>
+          <section class="step">
+            <p>Let's take a closer look at the countries who have the highest human influenced CO2 emmissions in the world.</p>
+            <p>Here we see the CO2 emissions from 1969 to 2009 in the U.S.</p>
+          </section>
+          <section class="step">
+            <p>And in China</p>
+          </section>
+          <section class="step">
+            <p>And in India, Japan, and the UK</p>
+          </section>
+          <section class="step">
+            <p>We can see that each of these countries have been continually increasing the amount of carbon they are putting into the atmosphere each year. </p>
+            <p>Why are these numbers steadily increasing? Let's take a look at the growth of populations in those same countries to find an answer.</p>
+          </section>
+          <section class="step">
+            <p>Here we have the total population from 1969 to 2014 in the United States.</p>
+          </section>
+          <section class="step">
+            <p>and in China</p>
+          </section>
+          <section class="step">
+            <p>and in India, Japan, and the UK.</p>
+          </section>
+          <section class="step">
+            <p>It makes sense that with an larger population, there are more people using more resources ultimately putting more CO2 into the atmosphere</p>
+            <p>Let's take a look at why the population is increasing, starting with birth rate.</p>
+          </section>
+          <section class="step">
+            <p>Here we have the birth rate in the United States.</p>
+          </section>
+          <section class="step">
+            <p>And in China</p>
+          </section>
+          <section class="step">
+            <p>And in India, Japan, and the United Kingdom</p>
+          </section>
+          <section class="step">
+            <p>Strangly enough, the birth rates in the countries are decreasing. Why then is the population in those countries still increasing? The answer lies in the death rate.</p>
+          </section>
+          <section class="step">
+            <p>Here we have the death rate in the United States</p>
+          </section>
+          <section class="step">
+            <p>And in China</p>
+          </section>
+          <section class="step">
+            <p>And in India, Japan, and the UK.</p>
+          </section>
+          <section class="step">
+            <p>We can see that the death rate in these countries is not only slower, it is <strong>slowing down</strong> too! This means that there are more people being born every year than there are dying, and the difference between the amount of people being born and the amount of people dying is only increasing. This is a very bad thing for the environment if people continue to produce the same amount of carbon dioxide they have for the past 40 years.</p>
+            <p>The world is already seeing adverse effects of the heat, for instance, birds in North America.</p>
+          </section>
+          <section class="step">
+            <p>Every spring in the northern hemisphere, birds make the trek north to acheive resources like food and shelter that springtime usually offers. When winter rolls around again and it gets colder up north, birds make the trek south again to acheive a similar climate to what they are accustomed to.</p>
+            <p>Here is where a variety of species could be seen 40 years ago in the winter.</p>
+          </section>
+          <section class="step">
+            <p>And here is where they can be seen today.</p>
+            <p>Since surface temperatures have been increasing the past 40 years, locations further north are now warmer then they would have been 40 so years ago. As a result, many birds end up staying further north than they did 40 years ago because the warmer temperatures is what they are used to.</p>
+            <p>While this may seem harmless, when birds return south but find themselves in an unfamiliar location, the terrain is not always similar to what they are accustomed to. Because of this, many birds die struggling to find food and shelter in such an unfamiliar location. Additionally, as temperatures continue to warm, who knows how far north birds may find themselves in the future and the effect the absence of birds has the on their ecosystems is unknown.</p>
+          </section>
+          <section class="step">
+            <div class="break"></div>
+          </section>
+        </div>
+        <div id="vis">
+          </div>
+      </div>
+    </div>
+    </div>
+    <div class="container end">
+      <p>If we continue to produce carbon at this scale, by the end of the century, the average surface temperature could raise by 3 degrees Celsius. The implications this has on people and biology are very serious and unpredictable.</p>
+      <p>
+        "People tend to focus on the here and now. 
+The problem is that, once global warming is something that most people can feel in the course of their daily lives, it will be too late to prevent much larger, potentially catastrophic changes." 
+
+Elizabeth Kolbert.
+      </p>
+    </div>
+  </body>
+</html>

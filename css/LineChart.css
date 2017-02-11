@@ -1,0 +1,14 @@
+.axis line, .axis path {
+    fill: none;
+    stroke: #000;
+}
+
+.axis text {
+    font-size: 10px;
+}
+
+.a-path {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
